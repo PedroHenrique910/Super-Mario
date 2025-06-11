@@ -1,3 +1,18 @@
-body{
-    background: rgb(230, 230, 200);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(230, 230, 200);
+}
+
+#container {
+  width: 1080px;
+  border: 1px solid red;
+}
+
+#cabecalho {
+  background: url(../imagens/cabecalho-vermelho.webp) repeat-x;
+  margin: -205px 0px 0 -21px;
 }
