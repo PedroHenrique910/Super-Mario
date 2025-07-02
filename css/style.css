@@ -66,16 +66,20 @@ nav a {
 
 /*********Principal********/
 
-#principal {
+#capa-home {
   display: flex;
   justify-content: space-around;
 }
 
-#conteudo {
+#principal {
   display: flex;
-  flex-direction: column;
-  height: 430px;
-  margin: 20px 0 0 100px;
+  justify-content: space-around;
+  height: 450px;
+  margin: 20px 0px 0 30px;
+}
+
+#conteudo p {
+  margin: 0 0 5px 8px;
 }
 
 #capa {
@@ -85,7 +89,7 @@ nav a {
 section#capa {
   width: 520px;
   padding: 10px;
-  margin: 0 0 20px 20px;
+  margin: 20px 0px 20px 0px;
   background: rgba(235, 230, 230, 0.8);
   box-shadow: rgb(190, 177, 177) 1px 0px 5px 4px;
   display: flex;
@@ -93,21 +97,107 @@ section#capa {
 }
 
 #capa p {
-  padding: 20px 0 10px 15px;
+  padding: 20px 0 10px 10px;
 }
 
-aside#filme {
+#video-mario {
+  background: rgb(202, 104, 104);
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 600px;
+  margin: 20px 0 0 10px;
+  padding: 20px;
+}
+
+#video-mario p strong {
+  margin: 0 auto;
+  margin: 10px 0 0 150px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#mario-historia {
+  display: flex;
+  align-items: center;
+  width: 650px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+#historia {
+  display: flex;
+}
+
+/****** História Jogo ******/
+
+#historia-jogo {
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-around;
+}
+
+#historia-jogo p {
+  width: 370px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#historia-jogo img {
+  width: 400px;
+}
+
+#historia-jogo #gif-antigo-mario {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 200px;
+  top: 210px;
+}
+
+/********* História Filme ********/
+
+#toadgif {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 80px;
+  left: 300px;
+}
+
+#conteudo-filme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 68px;
+}
+
+#historia-filme {
+  width: 400px;
+}
+
+#historia-filme p {
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#filme {
   background: rgb(202, 104, 104);
   box-shadow: rgb(190, 177, 177) 1px 0px 5px 4px;
   width: 500px;
-  height: 920px;
-  margin: 20px 0 50px 0;
+  height: 750px;
   display: flex;
   flex-direction: column;
 }
 
 #filme p {
   padding: 10px;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 #filme h3 {
@@ -115,20 +205,18 @@ aside#filme {
   background: rgb(152, 161, 245);
   width: 200px;
   border-radius: 50px;
-  position: relative;
   text-align: center;
-  bottom: 320px;
-  left: 150px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 300px;
 }
 
 #filme h2 {
   font-family: Mario;
-  margin-top: 15px;
   background: rgb(152, 161, 245);
   width: 300px;
-  margin-bottom: 20px;
-  position: relative;
-  left: 100px;
+  margin: 20px auto;
+  text-align: center;
 }
 
 /********* Rodapé **********/
