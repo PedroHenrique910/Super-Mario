@@ -25,15 +25,20 @@ body {
 
 #cabecalho {
   background: rgb(240, 80, 80);
-  height: 100px;
+  width: 100%;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 80px;
+  position: fixed;
+  clear: both;
+  z-index: 2;
+  margin-bottom: px;
 }
 
 #mario-gif img {
-  width: 140px;
+  width: 110px;
   display: flex;
   position: relative;
   right: 300px;
@@ -69,6 +74,7 @@ nav a {
 #capa-home {
   display: flex;
   justify-content: space-around;
+  margin-top: 80px;
 }
 
 #principal {
@@ -100,13 +106,17 @@ section#capa {
   padding: 20px 0 10px 10px;
 }
 
+#principal {
+  margin-bottom: 300px;
+}
+
 #video-mario {
   background: rgb(202, 104, 104);
   display: flex;
   flex-direction: column;
   height: 450px;
   width: 600px;
-  margin: 20px 0 0 10px;
+  margin: 100px 0 0px 10px;
   padding: 20px;
 }
 
@@ -123,6 +133,7 @@ section#capa {
   width: 650px;
   line-height: 1.5;
   font-size: 18px;
+  margin-top: 150px;
 }
 
 #historia {
