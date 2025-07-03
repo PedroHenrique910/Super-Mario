@@ -21,6 +21,11 @@ body {
   src: url(../fontes/NewSuperMarioFontU.woff);
 }
 
+@font-face {
+  font-family: fonte-retro;
+  src: url(../fontes/PressStart2P-Regular.ttf);
+}
+
 /********* Cabeçalho *********/
 
 #cabecalho {
@@ -77,9 +82,9 @@ nav a {
   margin-top: 80px;
 }
 
+/* Principal História */
 #principal {
   display: flex;
-  justify-content: space-around;
   height: 450px;
   margin: 20px 0px 0 30px;
 }
@@ -116,7 +121,7 @@ section#capa {
   flex-direction: column;
   height: 450px;
   width: 600px;
-  margin: 100px 0 0px 10px;
+  margin: 100px 0 0px 30px;
   padding: 20px;
 }
 
@@ -124,7 +129,8 @@ section#capa {
   margin: 0 auto;
   margin: 10px 0 0 150px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
+  font-family: fonte-retro;
 }
 
 #mario-historia {
@@ -230,9 +236,113 @@ section#capa {
   text-align: center;
 }
 
+/******* SEÇÃO JOGOS *********/
+
+.fundo-jogos {
+  background: rgba(238, 237, 237, 0.61);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgb(190, 177, 177) 1px 0px 15px 1px;
+}
+
+#t-jogos {
+  margin-top: 150px;
+  margin-left: 80px;
+  font-family: Mario;
+  font-size: 30px;
+}
+
+#super-mario-world {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+#super-mario-world #descricao {
+  width: 555px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+#super-mario-world a {
+  text-decoration: none;
+  color: blue;
+  font-family: Mario;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+#super-mario-world a:hover {
+  color: rgb(148, 31, 31);
+}
+
+#super-mario-world strong {
+  font-family: fonte-retro;
+  font-size: 12px;
+}
+#super-mario-world img {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+/******* Parte final - Jogo ******/
+
+#kart img {
+  width: 900px;
+  height: 600px;
+  box-shadow: rgb(190, 177, 177) 1px 0px 5px 4px;
+}
+
+#bonus-jogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-family: fonte-retro;
+}
+
+#mario-kart-world {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0 100px 0;
+}
+
+#mario-kart-world img {
+  box-shadow: rgb(190, 235, 241) 1px 0px 5px 5px;
+}
+
+#mario-kart-world #descricao {
+  width: 500px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+#titulo-world {
+  font-family: fonte-retro;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /********* Rodapé **********/
 
 footer#rodape {
+  width: 100%;
   background: black;
   color: white;
   height: 100px;
