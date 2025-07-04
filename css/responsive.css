@@ -137,15 +137,16 @@
 
   #historia-jogo #gif-antigo-mario {
     position: relative;
-    left: 90px !important;
-    top: 130px;
+    left: 140px !important;
+    top: -150px;
     width: 20px !important;
     height: 20px !important;
   }
 
   #historia-jogo #imagem-jogo img {
     width: 1px;
-    margin-top: -30px;
+    margin-top: -0px;
+    margin-left: -10px;
   }
 
   #toadgif {
@@ -154,7 +155,7 @@
     left: 0 !important;
     top: 0 !important;
     margin: 10px 0;
-    margin-left: 100px;
+    margin-left: 160px;
     display: block;
   }
 
@@ -198,10 +199,8 @@
     font-size: 15px !important;
   }
 
-  #t-jogos {
-    margin-left: 10px;
-    margin-top: 100px;
-    font-size: 22px;
+  #bonus-jogos {
+    margin-bottom: 10px;
   }
 
   #super-mario-world,
